@@ -1,0 +1,19 @@
+---
+name: Ingress proxy mod
+version: 0.2.4
+slug: ingress_proxy_mod
+description: nginx reverse proxy to expose network resources through HA ingress
+webui: "http://[HOST]:[PORT:8989]/"
+watchdog: "http://[HOST]:[PORT:8989]/"
+init: false
+ingress: true
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+options:
+  destination: "192.168.1.55:8989"
+schema:
+  destination: "match(^.+:\\d+$)"
