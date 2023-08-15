@@ -3,7 +3,7 @@ name: Sonarr proxy
 version: 0.2.4
 slug: sonarr_proxy
 description: nginx reverse proxy to expose Sonarr through HA ingress
-webui: "[PROTO:ssl]://[HOST]:[PORT:80]"
+webui: "[PROTO:ssl]://[HOST]"
 init: false
 ingress: true
 arch:
