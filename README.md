@@ -1,4 +1,4 @@
-# Home Assistant Addons Repository
+# Home Assistant: SCCMOG Addons
 
 ## About
 
@@ -9,14 +9,12 @@ In the Home Assistant add-on store, a possibility to add a repository is provide
 Use the following URL to add this repository:
 
 ```
-https://github.com/tux2000/home-assistant-addons
+https://github.com/SCCMOG/home-assistant-addons
 ```
 
 ## Add-ons provided by this repository
 
-### [Paperless-ngx](paperless-ngx)
+### [radarr-proxy](radarr-proxy)
 
-[Docs](paperless-ngx/DOCS.md)
+[Docs](radarr-proxy/DOCS.md)
 
-
-### [ingress-proxy](ingress-proxy)

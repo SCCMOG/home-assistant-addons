@@ -4,5 +4,8 @@
         "homeassistant",
         "streetsidesoftware",
         "superviser"
-    ]
+    ],
+    "files.associations": {
+        "*.yaml": "home-assistant"
+    }
 }
