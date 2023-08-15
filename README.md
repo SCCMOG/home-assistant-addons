@@ -14,7 +14,7 @@ https://github.com/SCCMOG/home-assistant-addons
 
 ## Add-ons provided by this repository
 
-### [radarr-proxy](radarr-proxy)
+### [sonarr-proxy](sonarr-proxy)
 
-[Docs](radarr-proxy/DOCS.md)
+[Docs](sonarr-proxy/DOCS.md)
 
