@@ -3,8 +3,8 @@ name: Ingress proxy mod
 version: 0.2.4
 slug: ingress_proxy_mod
 description: nginx reverse proxy to expose network resources through HA ingress
-webui: "http://[HOST]:[PORT:8989]/"
-watchdog: "http://[HOST]:[PORT:8989]/"
+webui: "http://[HOST]"
+watchdog: "http://[HOST]"
 init: false
 ingress: true
 arch:
