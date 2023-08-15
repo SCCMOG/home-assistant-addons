@@ -5,15 +5,24 @@ slug: sonarr_proxy
 description: nginx reverse proxy to expose Sonarr through HA ingress
 init: false
 ingress: true
+startup: application
+boot: auto
+webui: "http://[HOST]:[PORT:8989]/"
+watchdog: "http://[HOST]:[PORT:8989]/"
+ingress_port: 8989
+ingress_entry: /
+panel_admin: false
+host_network: false
+full_access: false
+environment: {}
+services: []
 arch:
   - aarch64
   - amd64
   - armhf
   - armv7
   - i386
-map:
-  - ssl
 options:
-  destination: "http://192.168.1.55:8989"
+  destination: "192.168.1.55:8989"
 schema:
-  destination: str?
+  destination: "match(^.+:\\d+$)"
