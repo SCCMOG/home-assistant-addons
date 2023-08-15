@@ -1,4 +1,4 @@
-#!/command/with-contenv bashio
+#!/command/with-contenv bash
 
 DESTINATION=$(bashio::config 'destination')
 
