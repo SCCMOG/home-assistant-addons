@@ -6,3 +6,8 @@
 
 - Updated Docs
 - Changed ingress entry
+
+### 1.0.2
+
+- Revert ingress entry
+- Remove ports

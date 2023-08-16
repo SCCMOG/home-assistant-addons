@@ -1,5 +1,5 @@
 name: Sonarr Proxy
-version: "1.0.1"
+version: "1.0.2"
 panel_icon: "mdi:television"
 panel_title: Sonarr Proxy
 slug: sonarr-proxy
@@ -13,10 +13,6 @@ ingress: true
 ingress_port: 8989
 ingress_entry: sonarr
 panel_admin: false
-ports:
-  8989/tcp: 8989
-ports_description:
-  8989/tcp: Web interface (Not required for Hass.io Ingress)
 host_network: false
 devices: []
 usb: false
