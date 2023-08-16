@@ -7,4 +7,4 @@ The sole purpose of this addon is to add a Sonarr icon to the sidebar of Home As
 
 ## Options
 
-- `destination` (required): this should be the local URL on which the Sonarr frontend is running, e.g. `http://192.168.2.43:8989`. Make sure there is no trailing slash!
+- `server` (required): this should be the local URL on which the Sonarr frontend is running, e.g. `192.168.2.43:8989`. Make sure there is no trailing slash!
