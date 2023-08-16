@@ -1,5 +1,5 @@
 name: Sonarr Proxy
-version: "1.0.0"
+version: "1.0.1"
 panel_icon: "mdi:television"
 panel_title: Sonarr Proxy
 slug: sonarr-proxy
@@ -11,7 +11,7 @@ webui: "http://[HOST]:[PORT:8989]/"
 watchdog: "http://[HOST]:[PORT:8989]/"
 ingress: true
 ingress_port: 8989
-ingress_entry: /
+ingress_entry: sonarr
 panel_admin: false
 ports:
   8989/tcp: 8989
