@@ -1,13 +1,13 @@
 ---
 name: Ingress proxy
-version: 0.2.5
+version: 0.2.4
 slug: ingress_proxy
 description: nginx reverse proxy to expose network resources through HA ingress
-webui: "HTTP://[HOST]:[PORT:8989]"
+webui: "[PROTO:ssl]://[HOST]:[PORT:80]"
 init: false
 ingress: true
 arch:
-  - arch64
+  - aarch64
   - amd64
   - armhf
   - armv7
@@ -15,6 +15,6 @@ arch:
 map:
   - ssl
 options:
-  destination: "192.168.1.55:8989"
+  destination: "http://192.168.0.1"
 schema:
   destination: str?
