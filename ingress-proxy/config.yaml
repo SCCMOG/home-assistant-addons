@@ -7,7 +7,7 @@ webui: "HTTP://[HOST]:[PORT:8989]"
 init: false
 ingress: true
 arch:
-  - aarch64
+  - arch64
   - amd64
   - armhf
   - armv7
