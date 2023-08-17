@@ -1,6 +1,6 @@
 {
     "name": "Radarr Proxy",
-    "version": "1.0.91",
+    "version": "1.0.92",
     "slug": "radarr_proxy",
     "description": "Proxy for externally running Radarr",
     "url": "https://github.com/SCCMOG/home-assistant-addons/tree/master/radarr-proxy",
@@ -18,10 +18,10 @@
     "timeout": 30,
     "panel_icon": "mdi:radarr",
     "ports": {
-      "7878/tcp": null
+      "8099/tcp": null
     },
     "ports_description": {
-      "7878/tcp": "Frontend tcp-listen port"
+      "8099/tcp": "Frontend tcp-listen port"
     },
     "options": {
       "server": null

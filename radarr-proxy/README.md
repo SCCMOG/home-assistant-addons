@@ -10,4 +10,3 @@ The sole purpose of this addon is to add a Zigbee2MQTT icon to the sidebar of Ho
 ## Options
 
 - `server` (required): this should be the local URL on which the Zigbee2MQTT frontend is running, e.g. `http://192.168.2.43:8080`. Make sure there is no trailing slash!
-- `auth_token` (optional): only use when you have an `auth_token` set for the frontend in the Zigbee2MQTT configuration.
