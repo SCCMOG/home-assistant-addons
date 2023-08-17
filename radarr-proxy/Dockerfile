@@ -3,9 +3,9 @@ FROM $BUILD_FROM
 RUN apk add --no-cache --update nginx
 
 # Copy root filesystem
-ADD nginx.conf.gtpl /
+ADD nginx.gtpl /
 ADD entrypoint.sh /
-
+RUN chmod 755 /entrypoint.sh
 # ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
 
 # Build arguments
@@ -22,5 +22,5 @@ LABEL \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION}
 
-RUN chmod 755 /entrypoint.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
