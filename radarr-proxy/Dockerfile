@@ -7,6 +7,8 @@ ADD nginx.conf.gtpl /
 ADD entrypoint.sh /
 
 ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
+RUN chmod +x /sbin/docker-entrypoint.sh
+
 # Build arguments
 ARG BUILD_ARCH
 ARG BUILD_DESCRIPTION
