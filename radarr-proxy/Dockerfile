@@ -6,8 +6,8 @@ RUN apk add --no-cache --update nginx
 ADD nginx.conf.gtpl /
 ADD entrypoint.sh /
 
-ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
-RUN chmod +x /sbin/docker-entrypoint.sh
+# ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
+RUN chmod +x /bin/sh/docker-entrypoint.sh
 
 # Build arguments
 ARG BUILD_ARCH
