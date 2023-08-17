@@ -13,3 +13,7 @@
 ### 1.0.4
 
 - EntryPoint
+
+### 1.0.5
+
+- Remove CHMOD
