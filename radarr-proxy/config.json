@@ -21,10 +21,10 @@
       "config:ro"
     ],
     "ports": {
-      "8099/tcp": null
+      "7878/tcp": null
     },
     "ports_description": {
-      "8099/tcp": "Frontend tcp-listen port"
+      "7878/tcp": "Frontend tcp-listen port"
     },
     "options": {
       "server": null,
