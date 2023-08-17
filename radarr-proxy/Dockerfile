@@ -6,7 +6,8 @@ RUN apk add --no-cache --update nginx
 ADD nginx.gtpl /
 ADD entrypoint.sh /
 RUN chmod 755 /entrypoint.sh
-# ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
+
+ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
 
 # Build arguments
 ARG BUILD_ARCH

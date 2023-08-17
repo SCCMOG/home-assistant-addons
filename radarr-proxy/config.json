@@ -1,6 +1,6 @@
 {
     "name": "Radarr Proxy",
-    "version": "1.0.9",
+    "version": "1.0.91",
     "slug": "radarr_proxy",
     "description": "Proxy for externally running Radarr",
     "url": "https://github.com/SCCMOG/home-assistant-addons/tree/master/radarr-proxy",
