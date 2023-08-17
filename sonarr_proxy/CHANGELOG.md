@@ -11,3 +11,7 @@
 
 - Revert ingress entry
 - Remove ports
+
+### 1.0.3
+
+- remove webui

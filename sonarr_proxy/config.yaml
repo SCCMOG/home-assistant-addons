@@ -1,5 +1,5 @@
 name: Sonarr Proxy
-version: "1.0.2"
+version: "1.0.3"
 panel_icon: "mdi:television"
 panel_title: Sonarr Proxy
 slug: sonarr-proxy
@@ -7,7 +7,7 @@ description: Proxy addon for Sonarr
 url: "https://github.com/SCCMOG/home-assistant-addons"
 startup: application
 boot: auto
-webui: "http://[HOST]:[PORT:8989]/"
+#webui: "http://[HOST]:[PORT:8989]/"
 watchdog: "http://[HOST]:[PORT:8989]/"
 ingress: true
 ingress_port: 8989
