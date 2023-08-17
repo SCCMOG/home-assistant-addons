@@ -1,5 +1,3 @@
-
-
 # Run nginx in foreground.
 daemon off;
 
