@@ -7,7 +7,6 @@ ADD nginx.conf.gtpl /
 ADD entrypoint.sh /
 
 # ENTRYPOINT ["/bin/sh", "-c", "/entrypoint.sh"]
-#RUN chmod +x /bin/sh/docker-entrypoint.sh
 
 # Build arguments
 ARG BUILD_ARCH
@@ -23,4 +22,5 @@ LABEL \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION}
 
+RUN chmod 755 /run.sh
 ENTRYPOINT ["/entrypoint.sh"]
